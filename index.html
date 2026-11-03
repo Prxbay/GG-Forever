@@ -66,9 +66,9 @@
   }
   .poster .wanted {
     font-family: Georgia, 'Times New Roman', serif;
-    font-size: 2rem;
+    font-size: clamp(1.3rem, 7vw, 2rem);
     font-weight: 900;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     margin: 0 0 12px;
   }
   .poster img {
@@ -102,9 +102,8 @@
 </head>
 <body>
   <div class="wrap">
-    <span class="siren">🚨</span>
+    <div><span class="siren">🚨</span> <span class="siren">🚨</span> <span class="siren">🚨</span></div>
     <h1 class="alarm">Алярм, алярм!</h1>
-    <span class="siren">🚨</span>
 
     <!-- ТЕКСТ ПРО БЕГЛЕЦА: меняй тут -->
     <p class="headline">Сбежал <b>главный бандит Румынии</b>!</p>
