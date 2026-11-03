@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GG Forever</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background: radial-gradient(circle at 50% 20%, #1a1a2e 0%, #0a0a12 70%);
+    background-attachment: fixed;
+    color: #f5f5f5;
+    font-family: 'Trebuchet MS', 'Segoe UI', Arial, sans-serif;
+  }
+  .wrap {
+    text-align: center;
+    padding: 40px 24px 60px;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+  video {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 18px;
+    box-shadow: 0 0 40px rgba(140, 90, 255, 0.35), 0 0 0 1px rgba(255,255,255,0.06);
+    display: block;
+    margin: 0 auto;
+  }
+  h1 {
+    margin: 28px 0 6px;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #ffd166, #f77f00);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: none;
+  }
+  p.sub {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #b8b8c8;
+    letter-spacing: 0.5px;
+  }
+  p.sub b {
+    color: #f5f5f5;
+  }
+  .gallery {
+    margin-top: 44px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .gallery a {
+    display: block;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.08), 0 8px 24px rgba(0,0,0,0.5);
+    line-height: 0;
+  }
+  .gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <video autoplay loop muted playsinline>
+      <source src="GG_Forever.mp4" type="video/mp4">
+    </video>
+    <h1>GG Forever</h1>
+    <p class="sub">From <b>Probay</b> to <b>Starkiller</b></p>
+
+    <div class="gallery">
+      <a href="thinking.jpg" target="_blank"><img src="thinking.jpg" alt="thinking"></a>
+      <a href="helldivers.jpg" target="_blank"><img src="helldivers.jpg" alt="helldivers"></a>
+      <a href="discord.jpg" target="_blank"><img src="discord.jpg" alt="discord"></a>
+      <a href="sosage.jpg" target="_blank"><img src="sosage.jpg" alt="sosage"></a>
+    </div>
+  </div>
+</body>
+</html>
